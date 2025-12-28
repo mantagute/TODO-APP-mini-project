@@ -1,0 +1,29 @@
+/* RESET */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* VARIABLES */
+
+:root {
+    --border: #e9ecef;
+    --dark: #1B4332;
+    --gray: #707070;
+    --light: #F8F9FA;
+    --primary-light: #52B788;
+    --primary: #2D6A4F;
+    --success: #52B788;
+    --warning: #e63946;
+}
+
+body {
+    align-items: center;
+    background-color: #f1f3f5;
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+    min-height: 100vh;
+}
