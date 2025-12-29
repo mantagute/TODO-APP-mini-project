@@ -181,7 +181,7 @@ header p {
     border-color: var(--success);
 }
 
-/* O símbolo de "Check" (V) */
+
 .todo-checkbox:checked + .checkmark::after {
     content: "";
     position: absolute;
@@ -191,8 +191,8 @@ header p {
     width: 5px;
     height: 10px;
     border: solid white;
-    border-width: 0 2px 2px 0; /* Desenha o formato de L */
-    transform: rotate(45deg);  /* Gira o L para virar um V */
+    border-width: 0 2px 2px 0; 
+    transform: rotate(45deg); 
 }
 
 /* ITEM TEXT & STATES */
